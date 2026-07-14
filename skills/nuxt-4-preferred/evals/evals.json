@@ -1,0 +1,23 @@
+{
+  "skill_name": "nuxt-4-preferred",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a new page at app/pages/dashboard.vue that shows a dashboard with some statistics using Nuxt UI components. Use Composition API with TypeScript.",
+      "expected_output": "A dashboard.vue file in app/pages/ with script setup, TypeScript, and Nuxt UI components",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a Pinia store in app/composables/stores/ called useConfigStore that manages configuration state with read-only items and an update method.",
+      "expected_output": "A useConfigStore.ts in app/composables/stores/ using Pinia defineStore pattern with Composition API",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a composable called useDataFetcher in app/composables/ that fetches data from an API endpoint with loading state using VueUse composables.",
+      "expected_output": "A useDataFetcher.ts in app/composables/ with TypeScript, readonly refs, and $fetch",
+      "files": []
+    }
+  ]
+}

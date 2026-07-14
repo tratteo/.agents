@@ -1,0 +1,553 @@
+{
+  "version": 3,
+  "skills": {
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/remotion-dev/skills.git",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-12T22:06:00.288Z",
+      "updatedAt": "2026-04-08T10:20:55.479Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-02-12T22:06:05.164Z",
+      "updatedAt": "2026-03-26T22:50:13.682Z"
+    },
+    "nuxt-ui": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/nuxt-ui/SKILL.md",
+      "skillFolderHash": "40665256467fa3ff62d06f9329f63841c941968d",
+      "installedAt": "2026-03-26T14:13:03.099Z",
+      "updatedAt": "2026-03-26T14:18:10.367Z"
+    },
+    "document-writer": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/document-writer/SKILL.md",
+      "skillFolderHash": "c11bbdc2d555251ab9ff40ff33239760b91f45ab",
+      "installedAt": "2026-03-26T14:18:09.962Z",
+      "updatedAt": "2026-03-26T14:18:09.962Z"
+    },
+    "motion": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/motion/SKILL.md",
+      "skillFolderHash": "0c452de76273cb4bd91944f2cdc7857108e6db6a",
+      "installedAt": "2026-03-26T14:18:10.047Z",
+      "updatedAt": "2026-03-26T14:18:10.047Z"
+    },
+    "nuxt": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/nuxt/SKILL.md",
+      "skillFolderHash": "01d04b82b5fdc530859fdad624b0d5f4f198c5e8",
+      "installedAt": "2026-03-26T14:18:10.123Z",
+      "updatedAt": "2026-03-26T14:18:10.123Z"
+    },
+    "nuxt-content": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/nuxt-content/SKILL.md",
+      "skillFolderHash": "3d413726fb55eabe7e30009138443f193be156df",
+      "installedAt": "2026-03-26T14:18:10.195Z",
+      "updatedAt": "2026-03-26T14:18:10.195Z"
+    },
+    "nuxt-seo": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/nuxt-seo/SKILL.md",
+      "skillFolderHash": "add15d6a1b87c27fd349e0e847d3d2695333179a",
+      "installedAt": "2026-03-26T14:18:10.284Z",
+      "updatedAt": "2026-03-26T14:18:10.284Z"
+    },
+    "reka-ui": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/reka-ui/SKILL.md",
+      "skillFolderHash": "5f15c96a9c9d90937a5f6292ffabbfbba7a8d399",
+      "installedAt": "2026-03-26T14:18:10.452Z",
+      "updatedAt": "2026-03-26T14:18:10.452Z"
+    },
+    "vite": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/vite/SKILL.md",
+      "skillFolderHash": "43fd78226416cdb0d6712a5f9b5380f53651d453",
+      "installedAt": "2026-03-26T14:18:10.544Z",
+      "updatedAt": "2026-03-26T14:18:10.544Z"
+    },
+    "vue": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/vue/SKILL.md",
+      "skillFolderHash": "13fa6d37a2903d2c432741bceaffd4c5fed4b6bb",
+      "installedAt": "2026-03-26T14:18:10.622Z",
+      "updatedAt": "2026-03-26T14:18:10.622Z"
+    },
+    "vueuse": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/vueuse/SKILL.md",
+      "skillFolderHash": "523543170b3ee6d5274332cd08345cf0bab4f3b1",
+      "installedAt": "2026-03-26T14:18:10.700Z",
+      "updatedAt": "2026-03-26T14:18:10.700Z"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "bf9e83da91320f445f2c27f65067009f344f757a",
+      "installedAt": "2026-03-26T14:35:21.437Z",
+      "updatedAt": "2026-03-26T14:35:21.437Z"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "skillFolderHash": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+      "installedAt": "2026-03-26T14:36:17.421Z",
+      "updatedAt": "2026-03-26T14:36:17.421Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "bd8feeee219216aac928d1d8e5c61a928dba23dc",
+      "installedAt": "2026-03-26T14:36:17.497Z",
+      "updatedAt": "2026-03-26T14:36:17.497Z"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-native-skills/SKILL.md",
+      "skillFolderHash": "8b4c6a51914e2111ab6f4f00cb81778652aa241d",
+      "installedAt": "2026-03-26T14:36:17.563Z",
+      "updatedAt": "2026-03-26T14:36:17.563Z"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "skillFolderHash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "installedAt": "2026-03-26T14:36:17.632Z",
+      "updatedAt": "2026-03-26T22:24:05.551Z"
+    },
+    "building-components": {
+      "source": "vercel/components.build",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel/components.build.git",
+      "skillPath": "skills/building-components/SKILL.md",
+      "skillFolderHash": "b7f8c5d9010b2f8cd1b4c9f250886264d5ce6d15",
+      "installedAt": "2026-03-26T22:23:55.749Z",
+      "updatedAt": "2026-03-26T22:23:55.749Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "2406f5d1c14a6727a0b628bf84e7485e0f76f8de",
+      "pluginName": "agent-browser",
+      "installedAt": "2026-03-26T22:24:25.030Z",
+      "updatedAt": "2026-03-26T22:24:25.030Z"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "skillFolderHash": "f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-27T10:33:33.196Z",
+      "updatedAt": "2026-03-27T10:33:33.196Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-27T10:35:09.524Z",
+      "updatedAt": "2026-03-27T10:35:09.524Z"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/docx/SKILL.md",
+      "skillFolderHash": "a0d216202f9793a78da44cf96aabe48f42e627ac",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-27T10:35:19.813Z",
+      "updatedAt": "2026-03-27T10:35:19.813Z"
+    },
+    "mcp-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "skillFolderHash": "9173e2c2107aac82d4ca6c726d71e89d11760470",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-27T10:36:10.073Z",
+      "updatedAt": "2026-03-27T10:36:10.073Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-27T10:36:20.415Z",
+      "updatedAt": "2026-03-27T10:36:20.415Z"
+    },
+    "MCP Integration": {
+      "source": "anthropics/claude-code",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/claude-code.git",
+      "skillPath": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "skillFolderHash": "3e57353b7b88f20216666d616b14015f3574554c",
+      "installedAt": "2026-03-27T10:37:31.698Z",
+      "updatedAt": "2026-03-27T10:37:31.698Z"
+    },
+    "design-md": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/google-labs-code/stitch-skills.git",
+      "skillPath": "skills/design-md/SKILL.md",
+      "skillFolderHash": "0a84781f35accede7cf373a4129d93bfb7651930",
+      "installedAt": "2026-03-27T10:38:34.824Z",
+      "updatedAt": "2026-03-27T10:38:34.824Z"
+    },
+    "dotnet-design-pattern-review": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/dotnet-design-pattern-review/SKILL.md",
+      "skillFolderHash": "4988a9e6586c0eab299198334aacca3b3947974b",
+      "installedAt": "2026-03-27T10:39:40.166Z",
+      "updatedAt": "2026-03-27T10:39:40.166Z"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "skillFolderHash": "c5423e592d1ce900fafca88b17f3896eea53b237",
+      "pluginName": "marketing-skills",
+      "installedAt": "2026-03-27T21:26:33.183Z",
+      "updatedAt": "2026-03-27T21:26:33.183Z"
+    },
+    "programmatic-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/programmatic-seo/SKILL.md",
+      "skillFolderHash": "afbffddf471de4fc36f31fb0e502be1d79a3cf1d",
+      "installedAt": "2026-03-27T21:26:45.001Z",
+      "updatedAt": "2026-05-20T09:02:25.632Z"
+    },
+    "ai-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/ai-seo/SKILL.md",
+      "skillFolderHash": "0287cfb2ee2e8aeb7fedd79d245179d320367c6e",
+      "pluginName": "marketing-skills",
+      "installedAt": "2026-03-27T21:26:57.270Z",
+      "updatedAt": "2026-03-27T21:26:57.270Z"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "skillFolderHash": "dec39a2d87a7cc4c7e50e4efee937a9df7d81a05",
+      "installedAt": "2026-03-27T21:27:03.909Z",
+      "updatedAt": "2026-05-20T09:02:24.652Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-01T20:20:24.602Z",
+      "updatedAt": "2026-04-01T20:20:24.602Z"
+    },
+    "developing-genkit-js": {
+      "source": "genkit-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/genkit-ai/skills.git",
+      "skillPath": "skills/developing-genkit-js/SKILL.md",
+      "skillFolderHash": "45635155e2daf9a274d0b71056c80193d23742f5",
+      "installedAt": "2026-04-10T09:51:31.189Z",
+      "updatedAt": "2026-04-10T09:51:31.189Z"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/microsoft/playwright-cli.git",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "skillFolderHash": "7c6c4aacb0169b01c751f174b43d9bf914f30fb0",
+      "installedAt": "2026-04-12T11:01:51.424Z",
+      "updatedAt": "2026-04-12T11:01:51.424Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "826d9d12328f2d8b2c00ad5c28e02612d2484faf",
+      "installedAt": "2026-04-28T11:16:24.780Z",
+      "updatedAt": "2026-04-28T11:16:24.780Z"
+    },
+    "high-end-visual-design": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/soft-skill/SKILL.md",
+      "skillFolderHash": "1b5943432ddd1b980206968c529a323cc992dbec",
+      "installedAt": "2026-04-28T11:16:24.858Z",
+      "updatedAt": "2026-04-28T11:16:24.858Z"
+    },
+    "minimalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/minimalist-skill/SKILL.md",
+      "skillFolderHash": "5509c012862cda27e2ed7efae89ed940ecc53add",
+      "installedAt": "2026-04-28T11:16:24.944Z",
+      "updatedAt": "2026-04-28T11:16:24.944Z"
+    },
+    "redesign-existing-projects": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/redesign-skill/SKILL.md",
+      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
+      "installedAt": "2026-04-28T11:16:25.026Z",
+      "updatedAt": "2026-04-28T11:16:25.026Z"
+    },
+    "churn-prevention": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/churn-prevention/SKILL.md",
+      "skillFolderHash": "78bdc8ca0ff1077fdcd55e18938349e0211fe604",
+      "installedAt": "2026-05-20T09:02:24.233Z",
+      "updatedAt": "2026-05-20T09:02:24.233Z"
+    },
+    "co-marketing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/co-marketing/SKILL.md",
+      "skillFolderHash": "a54c0f3d192949639b3ca4f115c01aba0604899e",
+      "installedAt": "2026-05-20T09:02:24.310Z",
+      "updatedAt": "2026-05-20T09:02:24.310Z"
+    },
+    "cold-email": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/cold-email/SKILL.md",
+      "skillFolderHash": "a25493818c41debed2ef7e15cc4d4804a5189355",
+      "installedAt": "2026-05-20T09:02:24.385Z",
+      "updatedAt": "2026-05-20T09:02:24.385Z"
+    },
+    "content-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "skillFolderHash": "8a2387b41d046b1b5a72a346103120b3c28e8bf5",
+      "installedAt": "2026-05-20T09:02:24.470Z",
+      "updatedAt": "2026-05-20T09:02:24.470Z"
+    },
+    "copy-editing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/copy-editing/SKILL.md",
+      "skillFolderHash": "4d29a5bcbbf92f159f713c17db9d3d0bf6217b48",
+      "installedAt": "2026-05-20T09:02:24.564Z",
+      "updatedAt": "2026-05-20T09:02:24.564Z"
+    },
+    "cro": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/cro/SKILL.md",
+      "skillFolderHash": "add272bb1b29f8721994e5dcf307ffe6018d98dc",
+      "installedAt": "2026-05-20T09:02:24.735Z",
+      "updatedAt": "2026-05-20T09:02:24.735Z"
+    },
+    "emails": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/emails/SKILL.md",
+      "skillFolderHash": "5b4e8b70c6e47d428e0f26e17d6ec1e9ad2ea8e0",
+      "installedAt": "2026-05-20T09:02:24.803Z",
+      "updatedAt": "2026-05-20T09:02:24.803Z"
+    },
+    "free-tools": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/free-tools/SKILL.md",
+      "skillFolderHash": "ef4b073b7d85422e0434a495dacceec826ce10ba",
+      "installedAt": "2026-05-20T09:02:24.892Z",
+      "updatedAt": "2026-05-20T09:02:24.892Z"
+    },
+    "lead-magnets": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/lead-magnets/SKILL.md",
+      "skillFolderHash": "b7c11f1a123e5d991db75fd3ec8a4d1fb2ecc66c",
+      "installedAt": "2026-05-20T09:02:24.980Z",
+      "updatedAt": "2026-05-20T09:02:24.980Z"
+    },
+    "marketing-ideas": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/marketing-ideas/SKILL.md",
+      "skillFolderHash": "5a9b8bbe71338ccc0f5c882228585e7aa3b2b532",
+      "installedAt": "2026-05-20T09:02:25.062Z",
+      "updatedAt": "2026-05-20T09:02:25.062Z"
+    },
+    "marketing-psychology": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/marketing-psychology/SKILL.md",
+      "skillFolderHash": "0a527bd6cff5ab2fe2b5a60b97d86013a385326a",
+      "installedAt": "2026-05-20T09:02:25.132Z",
+      "updatedAt": "2026-05-20T09:02:25.132Z"
+    },
+    "onboarding": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/onboarding/SKILL.md",
+      "skillFolderHash": "76522c2d0ae672a8dd390af7b3e04ba8d404a370",
+      "installedAt": "2026-05-20T09:02:25.215Z",
+      "updatedAt": "2026-05-20T09:02:25.215Z"
+    },
+    "paywalls": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/paywalls/SKILL.md",
+      "skillFolderHash": "311cf4073370289060c62f34f6fbfff462275599",
+      "installedAt": "2026-05-20T09:02:25.295Z",
+      "updatedAt": "2026-05-20T09:02:25.295Z"
+    },
+    "popups": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/popups/SKILL.md",
+      "skillFolderHash": "7a5cc86cf0f13b029a0e01b5f8920339618ad387",
+      "installedAt": "2026-05-20T09:02:25.380Z",
+      "updatedAt": "2026-05-20T09:02:25.380Z"
+    },
+    "pricing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/pricing/SKILL.md",
+      "skillFolderHash": "27432cf643f3aeca9904985de676bb87463982dd",
+      "installedAt": "2026-05-20T09:02:25.474Z",
+      "updatedAt": "2026-05-20T09:02:25.474Z"
+    },
+    "product-marketing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/product-marketing/SKILL.md",
+      "skillFolderHash": "bde3b9a89daf5c8b0e1f26d9c34029f08a9b1825",
+      "installedAt": "2026-05-20T09:02:25.546Z",
+      "updatedAt": "2026-05-20T09:02:25.546Z"
+    },
+    "site-architecture": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/site-architecture/SKILL.md",
+      "skillFolderHash": "35e29642aec1bc03c33f560a315d325e0e61ec7e",
+      "installedAt": "2026-05-20T09:02:25.703Z",
+      "updatedAt": "2026-05-20T09:02:25.703Z"
+    },
+    "signup": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/signup/SKILL.md",
+      "skillFolderHash": "fe7a49ae5e12fb97b176d1a806997624c9adafa2",
+      "installedAt": "2026-05-20T09:02:25.769Z",
+      "updatedAt": "2026-05-20T09:02:25.769Z"
+    },
+    "maizzle": {
+      "source": "maizzle/framework",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/maizzle/framework.git",
+      "skillPath": "skills/maizzle/SKILL.md",
+      "skillFolderHash": "3abe46715f5d5f5141b4509fef4517ee12e01119",
+      "installedAt": "2026-06-15T10:51:45.981Z",
+      "updatedAt": "2026-06-15T10:51:45.981Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
+      "pluginName": "document-skills",
+      "installedAt": "2026-06-30T14:20:41.204Z",
+      "updatedAt": "2026-06-30T14:20:41.204Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}

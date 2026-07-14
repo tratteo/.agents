@@ -1,0 +1,44 @@
+/**
+ * Default karaoke caption styles for pycaps.
+ *
+ * CRITICAL: Keep font-size at 20px. pycaps' layout engine scales this
+ * automatically based on video dimensions. Change font-family, font-weight,
+ * and text-shadow to adjust visual appearance instead.
+ *
+ * Key CSS classes:
+ *   .word                - Base style for every word
+ *   .word-being-narrated - The word currently being spoken (highlight)
+ *   .word.before-highlighted - Words before the highlighted one (optional)
+ *   .word.after-highlighted  - Words after the highlighted one (optional)
+ */
+
+/* Replace 'Arial' with your preferred system font */
+@font-face {
+    font-family: 'CaptionFont';
+    src: local('Arial Bold'), local('Arial');
+}
+
+.word {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: CaptionFont, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow:
+        1px 1px 0px #000000,
+        -1px 1px 0px #000000,
+        1px -1px 0px #000000,
+        -1px -1px 0px #000000,
+        2px 2px 3px rgba(0, 0, 0, 0.8);
+    padding: 3px 5px;
+}
+
+.word-being-narrated {
+    background-color: #4F39F6;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+/* Optional: dim words before the current one */
+.word.before-highlighted {
+    opacity: 0.6;
+}
