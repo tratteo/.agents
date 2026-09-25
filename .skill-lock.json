@@ -531,6 +531,79 @@
       "pluginName": "document-skills",
       "installedAt": "2026-06-30T14:20:41.204Z",
       "updatedAt": "2026-06-30T14:20:41.204Z"
+    },
+    "connect-recommend": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/connect-recommend/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.952Z",
+      "updatedAt": "2026-09-11T09:43:39.952Z"
+    },
+    "connect-required-verification-information": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/connect-required-verification-information/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.954Z",
+      "updatedAt": "2026-09-11T09:43:39.954Z"
+    },
+    "stripe-apps": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/stripe-apps/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.956Z",
+      "updatedAt": "2026-09-11T09:43:39.956Z"
+    },
+    "stripe-best-practices": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/stripe-best-practices/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.958Z",
+      "updatedAt": "2026-09-11T09:43:39.958Z"
+    },
+    "stripe-directory": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/stripe-directory/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.959Z",
+      "updatedAt": "2026-09-11T09:43:39.959Z"
+    },
+    "stripe-docs": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/stripe-docs/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.961Z",
+      "updatedAt": "2026-09-11T09:43:39.961Z"
+    },
+    "stripe-projects": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/stripe-projects/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.963Z",
+      "updatedAt": "2026-09-11T09:43:39.963Z"
+    },
+    "upgrade-stripe": {
+      "source": "docs.stripe.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.stripe.com/.well-known/skills/upgrade-stripe/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-09-11T09:43:39.965Z",
+      "updatedAt": "2026-09-11T09:43:39.965Z"
+    },
+    "brag": {
+      "source": "latent-spaces/brag",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/latent-spaces/brag.git",
+      "skillPath": "skills/brag/SKILL.md",
+      "skillFolderHash": "486cb76dac94af36f9d20c13e7e4dd637c8615eb",
+      "installedAt": "2026-09-24T09:57:58.086Z",
+      "updatedAt": "2026-09-24T09:57:58.086Z"
     }
   },
   "dismissed": {

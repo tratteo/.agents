@@ -1,0 +1,82 @@
+{
+  "skill_name": "dont-make-me-think",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just finished the landing page for our analytics product and I want to launch next week. Before I do, can you review it and tell me what's confusing or broken? The file is at evals/files/flawed-landing.html. I care most about whether a first-time visitor immediately gets what we do and what to click.",
+      "expected_output": "A prioritized UX review in the skill's report format, naming Krug principles for each finding, with blockers first, then the five-test results. Should flag: vague/clever hero copy that fails to say what the product is, competing CTAs with no clear primary action, plain-text-looking links, happy-talk and needless words, contradictory nav labels, ad-like banner, and no page name/orientation. Should end by offering to implement fixes.",
+      "files": ["evals/files/flawed-landing.html"],
+      "expectations": [
+        "Output uses the report sections (TL;DR, Blockers, Major, Minor, What's working)",
+        "Findings are prioritized with blockers before minor polish",
+        "Each finding explicitly names a Krug principle or rule (Law 1, Law 3, Forms, Navigation, etc.)",
+        "Flags the hero/messaging as failing to say what the product is",
+        "Flags competing calls to action and absence of a clear primary action",
+        "Flags needless words / happy talk",
+        "Reports the five tests (squint, trunk, word count, forgiveness, mindless choice) or equivalent self-check",
+        "Ends by offering to implement the fixes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our checkout has about 60% drop-off at the payment step and I can't figure out why. Here's exactly what the user sees today, step by step: evals/files/checkout-flow.md. Walk me through what's going wrong from a UX point of view and what I should fix first.",
+      "expected_output": "A prioritized UX review mapping checkout friction to Krug principles. Should flag blockers such as data loss on session timeout, errors that wipe the form and say 'Invalid input', surprise shipping cost, forced account creation with unnecessary fields, and ambiguous buttons. Should recommend highest-impact fixes first and offer to implement.",
+      "files": ["evals/files/checkout-flow.md"],
+      "expectations": [
+        "Identifies loss of entered data on session timeout as a blocker or top issue",
+        "Flags the unhelpful 'Invalid input' error and form reset (forgiveness / goodwill)",
+        "Flags hidden costs revealed late (shipping/tax)",
+        "Flags unnecessary required fields and forced account creation as friction",
+        "Flags ambiguous button labels and identical primary/secondary styling",
+        "Prioritizes findings and offers concrete fixes rather than a flat list",
+        "Ends by offering to implement the fixes"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm building the onboarding wizard for our B2B SaaS. There are four steps: create workspace, invite team, connect a data source, and pick a plan. It's a lot and people are bailing halfway. Help me design it so people actually finish. Don't write code, just give me the UX approach.",
+      "expected_output": "Build-mode guidance grounded in Krug principles. Should address orientation and progress, reduce per-step cognitive load, make each step a mindless choice, defer or make optional the high-friction steps, reserve goodwill, and use empty states/sensible defaults instead of a walkthrough. Should tie recommendations to Krug principles.",
+      "expectations": [
+        "Provides design guidance rather than a code implementation",
+        "Addresses orientation and progress within a multi-step flow",
+        "Recommends deferring, reordering, or making optional high-friction steps",
+        "Frames steps as mindless, unambiguous choices (Law 2)",
+        "Applies the reservoir-of-goodwill idea to reduce friction and information demands",
+        "Uses empty states / defaults to teach instead of a modal walkthrough",
+        "Keeps recommendations tied to Krug principles rather than generic UX advice"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Build me an invoices data table for our SaaS dashboard. Columns: customer, amount, status (paid, overdue, draft), due date. It needs to be easy to scan, and it should handle the case where there are no invoices yet. We use React and Tailwind.",
+      "expected_output": "A React + Tailwind data table component following the skill's rules: numbers right-aligned, text left-aligned, subtle dividers rather than heavy grid lines, bulk selection and pagination, status color used sparingly for meaning, and a proper empty state with icon/heading/one line/action. One clear primary action; no happy talk.",
+      "files": [],
+      "expectations": [
+        "Produces a React + Tailwind data table component",
+        "Right-aligns numeric columns and left-aligns text columns",
+        "Uses subtle dividers or zebra striping instead of heavy grid lines",
+        "Includes a proper empty state with heading, one line of guidance, and a primary action",
+        "Includes bulk selection and pagination",
+        "Uses status color sparingly and meaningfully (e.g. overdue), not decoratively",
+        "Keeps copy terse and avoids happy talk or instructions",
+        "States that the five tests were checked"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Users keep complaining about our signup form: they get errors about the phone number format and the whole form clears when they make a mistake. Can you fix it? Here's the component: evals/files/bad-signup-form.jsx. Keep it React.",
+      "expected_output": "A fixed React component that: uses real <label> elements instead of placeholder-only labels, parses/strips phone input leniently instead of enforcing a pattern, validates inline, preserves entered values on error, shows human and specific error messages, uses type=tel/email for correct mobile keyboards, and labels the submit button by outcome. Should remove happy talk and unnecessary required fields, and end with the five-test check.",
+      "files": ["evals/files/bad-signup-form.jsx"],
+      "expectations": [
+        "Replaces placeholder-only labels with real <label> elements tied to inputs",
+        "Removes strict phone pattern enforcement and parses input leniently",
+        "Validates inline rather than only on submit",
+        "Preserves entered values on error instead of clearing the form",
+        "Uses human, specific error messages rather than 'Invalid input'",
+        "Uses appropriate input types (type=tel, type=email) for mobile keyboards",
+        "Renames the generic 'Submit' button to an outcome label",
+        "Removes happy talk and unnecessary fields, and reports the five tests"
+      ]
+    }
+  ]
+}
